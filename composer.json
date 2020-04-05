@@ -1,5 +1,5 @@
 {
-    "name": "khuetd/m2-custom-log",
+    "name": "khuetd/log-handler",
     "description": "Improve the log for magento 2 with custom format",
     "type": "magento2-module",
     "license": "OSL-3.0",
