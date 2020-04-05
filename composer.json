@@ -13,7 +13,7 @@
     "version": "0.0.1",
     "require": {
         "php": ">=7.0",
-        "monolog/monolog": "1.11.0",
+        "monolog/monolog": "^1.0",
         "magento/framework": "100.*|101.*|102.*"
     },
     "autoload": {
