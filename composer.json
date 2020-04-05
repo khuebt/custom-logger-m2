@@ -1,5 +1,5 @@
 {
-    "name": "ktd/module-custom-log",
+    "name": "ktd/custom-log",
     "description": "Improve the log for magento 2 with custom format",
     "type": "magento2-module",
     "license": "OSL-3.0",
@@ -10,7 +10,12 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.0",
+        "monolog/monolog": "1.11.0",
+        "magento/framework": "100.*|101.*|102.*"
+    },
     "autoload": {
         "psr-4": {
             "Ktd\\LogHandler\\": ""
