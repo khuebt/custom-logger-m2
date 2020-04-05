@@ -21,7 +21,7 @@
             "Ktd\\LogHandler\\": ""
         },
         "files": [
-            "registration.php"
+            "src/registration.php"
         ]
     }
 }
