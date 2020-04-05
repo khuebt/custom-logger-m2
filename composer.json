@@ -1,5 +1,5 @@
 {
-    "name": "khuetd/log-handler",
+    "name": "khuetd/m2-custom-log",
     "description": "Improve the log for magento 2 with custom format",
     "type": "magento2-module",
     "license": "OSL-3.0",
@@ -10,7 +10,7 @@
         }
     ],
     "minimum-stability": "dev",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "require": {
         "php": ">=7.0",
         "monolog/monolog": "^1.0",
@@ -21,7 +21,7 @@
             "Ktd\\LogHandler\\": ""
         },
         "files": [
-            "src/registration.php"
+            "registration.php"
         ]
     }
 }
